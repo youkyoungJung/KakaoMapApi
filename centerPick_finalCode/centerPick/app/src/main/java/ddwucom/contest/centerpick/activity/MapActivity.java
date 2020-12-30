@@ -127,7 +127,7 @@ public class MapActivity extends AppCompatActivity implements MapView.CurrentLoc
         getHashKey();
 
         // 싱글톤 생성, Key 값을 활용하여 객체 생성
-        odsayService = ODsayService.init(this, "UQpy5z5jYlkG7opjycDDO26k1WqH5NwUshX6iB5fir8");
+        odsayService = ODsayService.init(this, "오디세이");
         // 서버 연결 제한 시간(단위(초), default : 5초)
         odsayService.setReadTimeout(5000);
         // 데이터 획득 제한 시간(단위(초), default : 5초)
